@@ -9,8 +9,7 @@ import {
 } from '@freecodecamp/ui';
 import { useFeature } from '@growthbook/growthbook-react';
 import { useTranslation } from 'react-i18next';
-import { Spacer } from '../helpers';
-
+import { Spacer } from '@freecodecamp/ui';
 import {
   PaymentContext,
   subscriptionAmounts,
