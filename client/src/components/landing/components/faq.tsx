@@ -2,7 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Col } from '@freecodecamp/ui';
 
-import { Spacer } from '@freecodecamp/ui';import BigCallToAction from './big-call-to-action';
+import { Spacer } from '@freecodecamp/ui';
+import BigCallToAction from './big-call-to-action';
 
 interface FaqItem {
   question: string;
