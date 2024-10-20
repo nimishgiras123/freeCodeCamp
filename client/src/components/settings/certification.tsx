@@ -20,7 +20,8 @@ import {
 } from '../../../config/cert-and-project-map';
 import { FlashMessages } from '../Flash/redux/flash-messages';
 import ProjectModal from '../SolutionViewer/project-modal';
-import { FullWidthRow, Spacer, Link } from '../helpers';
+import { FullWidthRow, Link } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import { SolutionDisplayWidget } from '../solution-display-widget';
 import {
   Certification,
