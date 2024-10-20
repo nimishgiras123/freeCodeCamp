@@ -2,7 +2,8 @@ import React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import { randomQuote } from '../../utils/get-words';
 import Login from '../Header/components/login';
-import { Link, Spacer, Loader } from '../helpers';
+import { Link, Loader } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import IntroDescription from './components/intro-description';
 
 import './intro.css';
