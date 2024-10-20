@@ -8,7 +8,7 @@ import { Container, Col, Row } from '@freecodecamp/ui';
 
 import Intro from '../components/Intro';
 import Map from '../components/Map';
-import { Spacer } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import LearnLayout from '../components/layouts/learn';
 import {
   isSignedInSelector,
