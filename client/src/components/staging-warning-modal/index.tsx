@@ -3,7 +3,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import { Button, Modal } from '@freecodecamp/ui';
 
 import store from 'store';
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 function StagingWarningModal(): JSX.Element {
   const { t } = useTranslation();
