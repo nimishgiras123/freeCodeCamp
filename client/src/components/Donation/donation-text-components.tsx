@@ -3,7 +3,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import { useFeature } from '@growthbook/growthbook-react';
 
 import Caret from '../../assets/icons/caret';
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import GreenPass from '../../assets/icons/green-pass';
 
 const POBOX = (
