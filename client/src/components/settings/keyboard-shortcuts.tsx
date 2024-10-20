@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 import ToggleButtonSetting from './toggle-button-setting';
 
