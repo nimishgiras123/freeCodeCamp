@@ -15,7 +15,8 @@ import {
 } from '@freecodecamp/ui';
 
 import Login from '../components/Header/components/login';
-import { Spacer, Loader, FullWidthRow } from '../components/helpers';
+import { Loader, FullWidthRow } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import { reportUser } from '../redux/actions';
 import {
   userFetchStateSelector,
