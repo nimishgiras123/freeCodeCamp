@@ -8,7 +8,7 @@ import {
   Modal
 } from '@freecodecamp/ui';
 
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 type DeleteModalProps = {
   delete: () => void;
