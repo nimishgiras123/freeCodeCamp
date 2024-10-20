@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { Panel, Button } from '@freecodecamp/ui';
 
 import { deleteUserToken } from '../../redux/actions';
-import { FullWidthRow, Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 type UserTokenProps = {
   deleteUserToken: () => void;
