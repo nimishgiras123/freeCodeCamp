@@ -2,7 +2,8 @@ import React from 'react';
 import { Alert } from '@freecodecamp/ui';
 import { useFeature } from '@growthbook/growthbook-react';
 import { useTranslation } from 'react-i18next';
-import { Link, Spacer } from '../helpers';
+import { Link } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import { ProgressBar } from '../Progress/progress-bar';
 
 interface LearnAlertProps {
