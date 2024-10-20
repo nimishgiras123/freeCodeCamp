@@ -11,7 +11,7 @@ import type { ProfileUI } from '../../redux/prop-types';
 import { submitProfileUI } from '../../redux/settings/actions';
 
 import FullWidthRow from '../helpers/full-width-row';
-import Spacer from '../helpers/spacer';
+import { Spacer } from '@freecodecamp/ui';
 import SectionHeader from './section-header';
 import ToggleRadioSetting from './toggle-radio-setting';
 
