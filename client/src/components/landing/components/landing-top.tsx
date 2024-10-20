@@ -12,7 +12,7 @@ import {
   TencentLogo,
   AlibabaLogo
 } from '../../../assets/images/components';
-import { Spacer } from '../../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import BigCallToAction from './big-call-to-action';
 import CampersImage from './campers-image';
 
