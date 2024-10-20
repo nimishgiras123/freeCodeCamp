@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { Button, Modal } from '@freecodecamp/ui';
 
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import { hardGoTo as navigate, closeSignoutModal } from '../../redux/actions';
 import { isSignoutModalOpenSelector } from '../../redux/selectors';
 import { apiLocation } from '../../../config/env.json';
