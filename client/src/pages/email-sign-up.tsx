@@ -9,7 +9,7 @@ import { Container, Col, Row, Button } from '@freecodecamp/ui';
 
 import IntroDescription from '../components/Intro/components/intro-description';
 import createRedirect from '../components/create-redirect';
-import { Spacer, Loader, Link } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import { apiLocation } from '../../config/env.json';
 
 import { acceptTerms } from '../redux/actions';
