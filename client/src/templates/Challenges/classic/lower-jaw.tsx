@@ -22,7 +22,7 @@ import {
   completedPercentageSelector
 } from '../redux/selectors';
 import callGA from '../../../analytics/call-ga';
-import { Spacer } from '../../../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 interface LowerJawPanelProps extends ShareProps {
   resetButtonText: string;
