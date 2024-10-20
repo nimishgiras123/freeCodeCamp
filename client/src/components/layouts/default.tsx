@@ -37,7 +37,8 @@ import StagingWarningModal from '../staging-warning-modal';
 import Footer from '../Footer';
 import Header from '../Header';
 import OfflineWarning from '../OfflineWarning';
-import { Loader, Spacer } from '../helpers';
+import { Loader } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import {
   MAX_MOBILE_WIDTH,
   EX_SMALL_VIEWPORT_HEIGHT
