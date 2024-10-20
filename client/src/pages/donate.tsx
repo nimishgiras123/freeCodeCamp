@@ -16,7 +16,8 @@ import {
   CommunityAchievementsText,
   GetSupporterBenefitsText
 } from '../components/Donation/donation-text-components';
-import { Spacer, Loader } from '../components/helpers';
+import { Loader } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import {
   signInLoadingSelector,
   userSelector,
