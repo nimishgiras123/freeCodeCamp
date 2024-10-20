@@ -4,7 +4,8 @@ import { Col } from '@freecodecamp/ui';
 
 import appleStoreBadge from '../../assets/images/footer-ads/apple-store-badge.svg';
 import googlePlayBadge from '../../assets/images/footer-ads/google-play-badge.svg';
-import { Spacer, Link } from '../helpers';
+import { Link } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import './footer.css';
 
 function Footer(): JSX.Element {
