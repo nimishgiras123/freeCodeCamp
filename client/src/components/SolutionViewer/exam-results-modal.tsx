@@ -7,7 +7,7 @@ import type { GeneratedExamResults } from '../../redux/prop-types';
 import { closeModal } from '../../templates/Challenges/redux/actions';
 import { isExamResultsModalOpenSelector } from '../../templates/Challenges/redux/selectors';
 import { formatSecondsToTime } from '../../utils/format-seconds';
-import { Spacer } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 type ExamResultsModalProps = {
   projectTitle: string;
