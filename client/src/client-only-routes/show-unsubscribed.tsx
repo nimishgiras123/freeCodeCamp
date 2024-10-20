@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Container, Panel, Button } from '@freecodecamp/ui';
 
 import envData from '../../config/env.json';
-import { Spacer } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import FullWidthRow from '../components/helpers/full-width-row';
 
 const { apiLocation } = envData;
