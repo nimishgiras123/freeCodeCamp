@@ -8,7 +8,7 @@ import { createSelector } from 'reselect';
 import { Container, Row, Col, Button } from '@freecodecamp/ui';
 import BigCallToAction from '../components/landing/components/big-call-to-action';
 
-import { Spacer } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import {
   isSignedInSelector,
   isDonatingSelector,
