@@ -2,10 +2,9 @@ import type { RouteComponentProps } from '@reach/router';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { useTranslation } from 'react-i18next';
-import { Container, Panel, Button } from '@freecodecamp/ui';
+import { Container, Panel, Button, Spacer } from '@freecodecamp/ui';
 
 import envData from '../../config/env.json';
-import { Spacer } from '../components/helpers';
 import FullWidthRow from '../components/helpers/full-width-row';
 
 const { apiLocation } = envData;
