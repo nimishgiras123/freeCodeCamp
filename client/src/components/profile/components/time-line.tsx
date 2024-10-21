@@ -177,7 +177,7 @@ function TimelineInner({
   return (
     <FullWidthRow>
       <h2>{t('profile.timeline')}</h2>
-      <Spacer size='small' />
+      <Spacer size='xs' />
       {completedMap.length === 0 ? (
         <p className='text-center'>
           {t('profile.none-completed')}&nbsp;
