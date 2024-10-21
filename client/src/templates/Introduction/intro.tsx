@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import { Container } from '@freecodecamp/ui';
 import { Spacer, ButtonLink } from '../../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import FullWidthRow from '../../components/helpers/full-width-row';
 import LearnLayout from '../../components/layouts/learn';
 import type { MarkdownRemark, AllChallengeNode } from '../../redux/prop-types';
