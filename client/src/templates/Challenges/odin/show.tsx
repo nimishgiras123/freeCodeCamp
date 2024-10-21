@@ -10,11 +10,10 @@ import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
 import { isEqual } from 'lodash-es';
-import { Container, Col, Row, Button } from '@freecodecamp/ui';
+import { Container, Col, Row, Button, Spacer } from '@freecodecamp/ui';
 import ShortcutsModal from '../components/shortcuts-modal';
 
 // Local Utilities
-import Spacer from '../../../components/helpers/spacer';
 import LearnLayout from '../../../components/layouts/learn';
 import { ChallengeNode, ChallengeMeta, Test } from '../../../redux/prop-types';
 import Hotkeys from '../components/hotkeys';
