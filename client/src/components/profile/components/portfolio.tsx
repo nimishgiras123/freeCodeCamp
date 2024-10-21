@@ -8,7 +8,8 @@ import {
   ControlLabel,
   HelpBlock,
   FormGroupProps,
-  Button
+  Button,
+  Spacer
 } from '@freecodecamp/ui';
 import { withTranslation } from 'react-i18next';
 import isURL from 'validator/lib/isURL';
@@ -16,7 +17,7 @@ import { PortfolioProjectData } from '../../../redux/prop-types';
 
 import { hasProtocolRE } from '../../../utils';
 
-import { FullWidthRow, Spacer } from '../../helpers';
+import { FullWidthRow } from '../../helpers';
 import BlockSaveButton from '../../helpers/form/block-save-button';
 import SectionHeader from '../../settings/section-header';
 
