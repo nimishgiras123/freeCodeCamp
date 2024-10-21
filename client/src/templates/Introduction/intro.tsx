@@ -3,8 +3,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 
-import { Container } from '@freecodecamp/ui';
-import { Spacer, ButtonLink } from '../../components/helpers';
+import { Container, Spacer } from '@freecodecamp/ui';
+import { ButtonLink } from '../../components/helpers';
 import FullWidthRow from '../../components/helpers/full-width-row';
 import LearnLayout from '../../components/layouts/learn';
 import type { MarkdownRemark, AllChallengeNode } from '../../redux/prop-types';
