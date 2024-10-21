@@ -1,8 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Col } from '@freecodecamp/ui';
+import { Col, Spacer } from '@freecodecamp/ui';
 
-import { Spacer } from '../../helpers';
 import BigCallToAction from './big-call-to-action';
 
 interface FaqItem {
