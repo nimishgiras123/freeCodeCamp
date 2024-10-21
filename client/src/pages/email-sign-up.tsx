@@ -5,11 +5,11 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { Container, Col, Row, Button } from '@freecodecamp/ui';
+import { Container, Col, Row, Button, Spacer } from '@freecodecamp/ui';
 
 import IntroDescription from '../components/Intro/components/intro-description';
 import createRedirect from '../components/create-redirect';
-import { Spacer, Loader, Link } from '../components/helpers';
+import { Loader, Link } from '../components/helpers';
 import { apiLocation } from '../../config/env.json';
 
 import { acceptTerms } from '../redux/actions';
