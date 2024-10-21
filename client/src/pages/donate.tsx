@@ -1,4 +1,4 @@
-import { Container, Col, Row } from '@freecodecamp/ui';
+import { Container, Col, Row, Spacer } from '@freecodecamp/ui';
 import type { TFunction } from 'i18next';
 import React, { useEffect } from 'react';
 import Helmet from 'react-helmet';
@@ -16,7 +16,7 @@ import {
   CommunityAchievementsText,
   GetSupporterBenefitsText
 } from '../components/Donation/donation-text-components';
-import { Spacer, Loader } from '../components/helpers';
+import { Loader } from '../components/helpers';
 import {
   signInLoadingSelector,
   userSelector,
