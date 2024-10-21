@@ -186,7 +186,7 @@ const ShowProjectLinks = (props: ShowProjectLinksProps): JSX.Element => {
   return (
     <div data-playwright-test-label='project-links'>
       {t(getCertHeading(certName), { user: name })}
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <Table striped>
         <thead>
           <tr>
@@ -199,7 +199,7 @@ const ShowProjectLinks = (props: ShowProjectLinksProps): JSX.Element => {
           <ProjectsFor certName={certName} />
         </tbody>
       </Table>
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <ProjectModal
         challengeFiles={completedChallenge?.challengeFiles ?? null}
         handleSolutionModalHide={handleSolutionModalHide}
