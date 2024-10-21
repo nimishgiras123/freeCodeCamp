@@ -6,8 +6,8 @@ import {
   faPen
 } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@freecodecamp/ui';
-import { AvatarRenderer, FullWidthRow, Spacer } from '../../helpers';
+import { Button, Spacer } from '@freecodecamp/ui';
+import { AvatarRenderer, FullWidthRow } from '../../helpers';
 import { parseDate } from './utils';
 import SocialIcons from './social-icons';
 import { type CamperProps } from './camper';
