@@ -5,10 +5,9 @@ import Helmet from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
-import { Container, Row, Col, Button } from '@freecodecamp/ui';
+import { Container, Row, Col, Button, Spacer } from '@freecodecamp/ui';
 import BigCallToAction from '../components/landing/components/big-call-to-action';
 
-import { Spacer } from '../components/helpers';
 import {
   isSignedInSelector,
   isDonatingSelector,
