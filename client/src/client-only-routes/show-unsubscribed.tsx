@@ -25,9 +25,9 @@ function ShowUnsubscribed({
       <Container>
         <main>
           <FullWidthRow>
-            <Spacer size='large' />
+            <Spacer size='l' />
             <Panel variant='primary' className='text-center'>
-              <Spacer size='medium' />
+              <Spacer size='m' />
               <h2 data-playwright-test-label='main-heading'>
                 {t('misc.unsubscribed')}
               </h2>
@@ -48,7 +48,7 @@ function ShowUnsubscribed({
               </Button>
             </FullWidthRow>
           ) : null}
-          <Spacer size='large' />
+          <Spacer size='l' />
         </main>
       </Container>
     </>
