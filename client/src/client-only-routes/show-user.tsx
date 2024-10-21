@@ -11,11 +11,12 @@ import {
   Panel,
   Col,
   Row,
-  Button
+  Button,
+  Spacer
 } from '@freecodecamp/ui';
 
 import Login from '../components/Header/components/login';
-import { Spacer, Loader, FullWidthRow } from '../components/helpers';
+import { Loader, FullWidthRow } from '../components/helpers';
 import { reportUser } from '../redux/actions';
 import {
   userFetchStateSelector,
