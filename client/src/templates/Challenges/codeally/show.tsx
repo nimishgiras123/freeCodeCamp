@@ -8,10 +8,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { Container, Col, Row, Alert } from '@freecodecamp/ui';
+import { Container, Col, Row, Alert, Spacer } from '@freecodecamp/ui';
 
 // Local Utilities
-import Spacer from '../../../components/helpers/spacer';
 import LearnLayout from '../../../components/layouts/learn';
 import ChallengeTitle from '../components/challenge-title';
 import ChallengeHeading from '../components/challenge-heading';
