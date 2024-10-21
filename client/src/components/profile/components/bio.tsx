@@ -55,7 +55,7 @@ const Bio = ({
         )}
       </div>
       {name && <h2>{name}</h2>}
-      <Spacer size={'small'} />
+      <Spacer size={'xs'} />
       {about && <p>{about}</p>}
       <div className='profile-meta-container'>
         {joinDate && (
