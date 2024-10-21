@@ -24,7 +24,7 @@ const LearnAlert = ({
         <>
           <div className='text-center'>
             <h2>{t('learn.donation-heading')}</h2>
-            <Spacer size='small' />
+            <Spacer size='xs' />
             <b className='m-0 progress-percent-value'>{`${value}%`}</b>
           </div>
           <div aria-hidden='true' className='progress-wrapper'>
@@ -35,7 +35,7 @@ const LearnAlert = ({
         </>
       )}
       <p>{text}</p>
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <div className={'text-center'}>
         <Link
           className='btn donate-button'
@@ -82,7 +82,7 @@ const LearnAlert = ({
         <b>{t('learn.building-a-university')}</b>
       </p>
       <p>{t('learn.if-help-university')}</p>
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <p className={'text-center'}>
         <Link
           className='btn donate-button'
