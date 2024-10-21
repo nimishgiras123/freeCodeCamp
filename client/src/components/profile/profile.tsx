@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Helmet from 'react-helmet';
 import type { TFunction } from 'i18next';
 import { useTranslation } from 'react-i18next';
-import { Alert, Container, Modal, Row } from '@freecodecamp/ui';
-import { FullWidthRow, Link, Spacer } from '../helpers';
+import { Alert, Container, Modal, Row, Spacer } from '@freecodecamp/ui';
+import { FullWidthRow, Link } from '../helpers';
 import Portfolio from './components/portfolio';
 
 import UsernameSettings from './components/username';
