@@ -4,13 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 
-import { Callout, Container } from '@freecodecamp/ui';
+import { Callout, Container, Spacer} from '@freecodecamp/ui';
 import { useFeatureIsOn } from '@growthbook/growthbook-react';
 
 import store from 'store';
 import envData from '../../config/env.json';
 import { createFlashMessage } from '../components/Flash/redux';
-import { FullWidthRow, Loader, Spacer } from '../components/helpers';
+import { FullWidthRow, Loader } from '../components/helpers';
 import Certification from '../components/settings/certification';
 import MiscSettings from '../components/settings/misc-settings';
 import DangerZone from '../components/settings/danger-zone';
