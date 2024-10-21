@@ -15,7 +15,7 @@ import { getSuperBlockTitleForMap } from '../../utils/superblock-map-titles';
 import DonateModal from '../../components/Donation/donation-modal';
 import Login from '../../components/Header/components/login';
 import Map from '../../components/Map';
-import { Spacer } from '../../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import callGA from '../../analytics/call-ga';
 import { tryToShowDonationModal } from '../../redux/actions';
 import {
