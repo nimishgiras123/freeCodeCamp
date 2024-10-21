@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import type { TFunction } from 'i18next';
 import { withTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
-import { Panel, Button } from '@freecodecamp/ui';
+import { Panel, Button, Spacer } from '@freecodecamp/ui';
 
 import { deleteUserToken } from '../../redux/actions';
-import { FullWidthRow, Spacer } from '../helpers';
+import { FullWidthRow } from '../helpers';
 
 type UserTokenProps = {
   deleteUserToken: () => void;
