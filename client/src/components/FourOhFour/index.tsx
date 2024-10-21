@@ -5,7 +5,8 @@ import { useTranslation } from 'react-i18next';
 
 import notFoundLogo from '../../assets/images/freeCodeCamp-404.svg';
 import { randomQuote } from '../../utils/get-words';
-import { Spacer, Link } from '../helpers';
+import { Link } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 import './404.css';
 
