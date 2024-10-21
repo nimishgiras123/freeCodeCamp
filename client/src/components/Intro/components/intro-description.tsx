@@ -14,14 +14,14 @@ function IntroDescription(): JSX.Element {
       className='intro-description'
       data-playwright-test-label='learn-read-this-section'
     >
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <p
         className='text-center'
         data-playwright-test-label='learn-read-this-heading'
       >
         <strong>{t('learn.read-this.heading')}</strong>
       </p>
-      <Spacer size='medium' />
+      <Spacer size='m' />
       {[...Array(8).keys()].map(i => (
         <p key={i} data-playwright-test-label='learn-read-this-p'>
           {t(`learn.read-this.p${i + 1}`)}
