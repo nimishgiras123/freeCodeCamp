@@ -5,7 +5,8 @@ import { createSelector } from 'reselect';
 
 import { certificatesByNameSelector } from '../../../redux/selectors';
 import type { CurrentCert } from '../../../redux/prop-types';
-import { FullWidthRow, Spacer, ButtonLink } from '../../helpers';
+import { FullWidthRow, ButtonLink } from '../../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import './certifications.css';
 
 const mapStateToProps = (
