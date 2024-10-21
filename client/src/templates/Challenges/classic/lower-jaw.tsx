@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { createSelector } from 'reselect';
-import { Button } from '@freecodecamp/ui';
+import { Button, Spacer } from '@freecodecamp/ui';
 import { connect } from 'react-redux';
 import Fail from '../../../assets/icons/fail';
 import LightBulb from '../../../assets/icons/lightbulb';
@@ -22,7 +22,6 @@ import {
   completedPercentageSelector
 } from '../redux/selectors';
 import callGA from '../../../analytics/call-ga';
-import { Spacer } from '../../../components/helpers';
 
 interface LowerJawPanelProps extends ShareProps {
   resetButtonText: string;
