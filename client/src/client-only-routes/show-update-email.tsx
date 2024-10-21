@@ -88,7 +88,7 @@ function ShowUpdateEmail({
         <title>{t('misc.update-email-1')} | freeCodeCamp.org</title>
       </Helmet>
       <Container>
-        <Spacer size='medium' />
+        <Spacer size='m' />
         <h2 className='text-center'>{t('misc.update-email-2')}</h2>
         <Row>
           <Col sm={6} smOffset={3}>
