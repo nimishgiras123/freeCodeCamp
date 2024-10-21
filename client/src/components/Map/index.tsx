@@ -180,7 +180,7 @@ function Map({
               />
             ))}
           </ul>
-          <Spacer size='medium' />
+          <Spacer size='m' />
         </Fragment>
       ))}
     </div>
