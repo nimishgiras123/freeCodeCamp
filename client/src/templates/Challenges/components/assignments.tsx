@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import Spacer from '../../../components/helpers/spacer';
+import Spacer from '@freecodecamp/ui';
 import ChallengeHeading from './challenge-heading';
 import PrismFormatted from './prism-formatted';
 
