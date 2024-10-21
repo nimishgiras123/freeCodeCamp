@@ -4,12 +4,11 @@ import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { createSelector } from 'reselect';
 import { useTranslation } from 'react-i18next';
-import { Button, Modal } from '@freecodecamp/ui';
+import { Button, Modal, Spacer } from '@freecodecamp/ui';
 
 // Local Utilities
 import { closeModal } from '../../redux/actions';
 import { isExitExamModalOpenSelector } from '../../redux/selectors';
-import { Spacer } from '../../../../components/helpers';
 
 // Types
 interface ExitExamModalProps {
