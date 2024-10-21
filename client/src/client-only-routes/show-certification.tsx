@@ -5,14 +5,14 @@ import { Trans, useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { Container, Col, Row, Image, Button } from '@freecodecamp/ui';
+import { Container, Col, Row, Image, Button, Spacer} from '@freecodecamp/ui';
 
 import envData from '../../config/env.json';
 import { getLangCode } from '../../../shared/config/i18n';
 import FreeCodeCampLogo from '../assets/icons/freecodecamp';
 import MicrosoftLogo from '../assets/icons/microsoft-logo';
 import { createFlashMessage } from '../components/Flash/redux';
-import { Loader, Spacer } from '../components/helpers';
+import { Loader } from '../components/helpers';
 import RedirectHome from '../components/redirect-home';
 import { Themes } from '../components/settings/theme';
 import { showCert, fetchProfileForUser } from '../redux/actions';
