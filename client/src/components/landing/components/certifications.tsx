@@ -23,9 +23,9 @@ const Certifications = ({
       xs={12}
     >
       <Map allChallenges={allChallenges} forLanding={true} />
-      <Spacer size='medium' />
+      <Spacer size='m' />
       <BigCallToAction />
-      <Spacer size='medium' />
+      <Spacer size='m' />
     </Col>
   );
 };
