@@ -13,7 +13,7 @@ import { Container, Col, Alert, Row, Button } from '@freecodecamp/ui';
 import { micromark } from 'micromark';
 
 // Local Utilities
-import Spacer from '../../../components/helpers/spacer';
+import { Spacer } from '@freecodecamp/ui';
 import LearnLayout from '../../../components/layouts/learn';
 import ChallengeTitle from '../components/challenge-title';
 import PrismFormatted from '../components/prism-formatted';
