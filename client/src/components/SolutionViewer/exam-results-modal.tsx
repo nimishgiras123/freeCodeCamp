@@ -59,27 +59,27 @@ const ExamResultsModal = ({
         {t('settings.labels.results-for', { projectTitle })}
       </Modal.Header>
       <Modal.Body alignment='start'>
-        <Spacer size='medium' />
+        <Spacer size='m' />
         <div style={{ paddingLeft: '30px' }}>
           <Row>
             {t('learn.exam.number-of-questions', {
               n: numberOfQuestionsInExam
             })}
           </Row>{' '}
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <Row>
             {t('learn.exam.correct-answers', { n: numberOfCorrectAnswers })}
           </Row>{' '}
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <Row>{t('learn.exam.percent-correct', { n: percentCorrect })}</Row>
-          <Spacer size='medium' />{' '}
+          <Spacer size='m' />{' '}
           <Row>
             {t('learn.exam.time', {
               t: formatSecondsToTime(examTimeInSeconds)
             })}
           </Row>
         </div>
-        <Spacer size='medium' />
+        <Spacer size='m' />
       </Modal.Body>
       <Modal.Footer alignment='end'>
         <Button
