@@ -1,9 +1,8 @@
 import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Alert } from '@freecodecamp/ui';
+import { Alert, Spacer } from '@freecodecamp/ui';
 
-import Spacer from '../../../../components/helpers/spacer';
 import {
   AllChallengeNode,
   PrerequisiteChallenge
