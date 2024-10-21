@@ -8,7 +8,7 @@ import { SuperBlocks } from '../../../../../shared/config/curriculum';
 import { initializeMathJax } from '../../../utils/math-jax';
 import { challengeTestsSelector } from '../redux/selectors';
 import { openModal } from '../redux/actions';
-import { Spacer } from '../../../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import TestSuite from './test-suite';
 
 import './side-panel.css';
