@@ -5,7 +5,7 @@ import type { TFunction } from 'i18next';
 import { createSelector } from 'reselect';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 import { connect } from 'react-redux';
-import { Table, Button } from '@freecodecamp/ui';
+import { Table, Button, Spacer } from '@freecodecamp/ui';
 
 import { regeneratePathAndHistory } from '../../../../shared/utils/polyvinyl';
 import ProjectPreviewModal from '../../templates/Challenges/components/project-preview-modal';
@@ -20,7 +20,7 @@ import {
 } from '../../../config/cert-and-project-map';
 import { FlashMessages } from '../Flash/redux/flash-messages';
 import ProjectModal from '../SolutionViewer/project-modal';
-import { FullWidthRow, Spacer, Link } from '../helpers';
+import { FullWidthRow, Link } from '../helpers';
 import { SolutionDisplayWidget } from '../solution-display-widget';
 import {
   Certification,
