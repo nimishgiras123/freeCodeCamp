@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Spinner from 'react-spinkit';
 import { Alert } from '@freecodecamp/ui';
 
-import { Link, Spacer } from '../helpers';
+import { Link } from '../helpers';
+import { Spacer } from '@freecodecamp/ui';
 
 type DonateCompletionProps = {
   error: string | null;
