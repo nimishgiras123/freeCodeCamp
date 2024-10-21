@@ -5,10 +5,10 @@ import {
   ControlLabel,
   FormControl,
   FormGroup,
-  Modal
+  Modal,
+  Spacer
 } from '@freecodecamp/ui';
 
-import { Spacer } from '../helpers';
 
 type ResetModalProps = {
   onHide: () => void;
