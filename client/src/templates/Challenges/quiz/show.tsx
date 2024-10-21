@@ -7,11 +7,10 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { Container, Col, Row, Button, Quiz, useQuiz } from '@freecodecamp/ui';
+import { Container, Col, Row, Button, Quiz, useQuiz, Spacer } from '@freecodecamp/ui';
 
 // Local Utilities
 import { shuffleArray } from '../../../../../shared/utils/shuffle-array';
-import Spacer from '../../../components/helpers/spacer';
 import LearnLayout from '../../../components/layouts/learn';
 import { ChallengeNode, ChallengeMeta, Test } from '../../../redux/prop-types';
 // import { challengeTypes } from '../../../../../shared/config/challenge-types';
