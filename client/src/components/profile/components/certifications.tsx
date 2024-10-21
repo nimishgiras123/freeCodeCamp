@@ -57,7 +57,7 @@ function CertButton({ username, cert }: CertButtonProps): JSX.Element {
           certTitle: t(`certification.title.${cert.certSlug}`)
         })}
       </ButtonLink>
-      <Spacer size='small' />
+      <Spacer size='xs' />
     </li>
   );
 }
@@ -87,11 +87,11 @@ function Certificates({
       )}
       {hasLegacyCert && (
         <div>
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <h3 id='legacy-certifications'>
             {t('settings.headings.legacy-certs')}
           </h3>
-          <Spacer size='medium' />
+          <Spacer size='m' />
           {legacyCerts && (
             <>
               <ul aria-labelledby='legacy-certifications'>
@@ -105,7 +105,7 @@ function Certificates({
                     />
                   ))}
               </ul>
-              <Spacer size='medium' />
+              <Spacer size='m' />
             </>
           )}
         </div>
