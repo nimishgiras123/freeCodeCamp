@@ -2,9 +2,9 @@ import { find } from 'lodash-es';
 import React, { useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
-import { Table } from '@freecodecamp/ui';
+import { Table, Spacer } from '@freecodecamp/ui';
 
-import { Link, Spacer } from '../components/helpers';
+import { Link } from '../components/helpers';
 import ProjectModal from '../components/SolutionViewer/project-modal';
 import type { CompletedChallenge, User } from '../redux/prop-types';
 import {
