@@ -37,7 +37,7 @@ function DonateCompletion({
   return (
     <Alert variant={style} className='donation-completion'>
       <b>{heading}</b>
-      <Spacer size={'medium'} />
+      <Spacer size={'m'} />
       <div className='donation-completion-body'>
         {(processing || redirecting) && (
           <Spinner
