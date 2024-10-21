@@ -97,7 +97,7 @@ class HeatMapInner extends Component<HeatMapInnerProps, HeatMapInnerState> {
 
     return (
       <FullWidthRow>
-        <Spacer size='medium' />
+        <Spacer size='m' />
 
         <CalendarHeatMap
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -161,7 +161,7 @@ class HeatMapInner extends Component<HeatMapInnerProps, HeatMapInnerState> {
             &gt;
           </button>
         </Row>
-        <Spacer size='medium' />
+        <Spacer size='m' />
         <hr />
       </FullWidthRow>
     );
