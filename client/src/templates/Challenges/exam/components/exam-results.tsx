@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@freecodecamp/ui';
+import { Button, Spacer } from '@freecodecamp/ui';
 
-import Spacer from '../../../../components/helpers/spacer';
 import { formatSecondsToTime } from '../../../../utils/format-seconds';
 import { GeneratedExamResults } from '../../../../redux/prop-types';
 
