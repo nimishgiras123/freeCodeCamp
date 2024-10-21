@@ -22,7 +22,7 @@ import {
   donationFormStateSelector,
   completedChallengesSelector
 } from '../../redux/selectors';
-import Spacer from '../helpers/spacer';
+import { Spacer } from '@freecodecamp/ui';
 import { Themes } from '../settings/theme';
 import { DonateFormState } from '../../redux/types';
 import type { CompletedChallenge } from '../../redux/prop-types';
