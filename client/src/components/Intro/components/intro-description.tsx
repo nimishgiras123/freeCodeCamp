@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import envData from '../../../../config/env.json';
-import { Link, Spacer } from '../../helpers';
-
+import { Link } from '../../helpers';
+import { Spacer } from '@freecodecamp/ui';
 import '../intro.css';
 
 const { forumLocation } = envData;
