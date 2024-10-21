@@ -1,8 +1,7 @@
 import React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
-import { Alert } from '@freecodecamp/ui';
+import { Alert, Spacer } from '@freecodecamp/ui';
 import { useFeature } from '@growthbook/growthbook-react';
-import Spacer from '../../components/helpers/spacer';
 
 const Down = () => {
   const { t } = useTranslation();
