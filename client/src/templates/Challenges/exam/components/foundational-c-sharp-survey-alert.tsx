@@ -2,9 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { useTranslation } from 'react-i18next';
-import { Panel, Button } from '@freecodecamp/ui';
+import { Panel, Button, Spacer } from '@freecodecamp/ui';
 import { openModal } from '../../redux/actions';
-import Spacer from '../../../../components/helpers/spacer';
 import SurveyModal from './survey-modal';
 
 const mapDispatchToProps = (dispatch: Dispatch) =>
