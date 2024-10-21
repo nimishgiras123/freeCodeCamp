@@ -9,10 +9,10 @@ import {
   FormControl,
   FormGroup,
   HelpBlock,
-  Button
+  Button,
+  Spacer
 } from '@freecodecamp/ui';
 
-import { Spacer } from '../../../components/helpers';
 import { isMicrosoftTranscriptLink } from '../../../../../shared/utils/validate';
 import {
   linkMsUsername,
