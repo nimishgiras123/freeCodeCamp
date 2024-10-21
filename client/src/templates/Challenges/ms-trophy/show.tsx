@@ -8,8 +8,7 @@ import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
 
-import { Container, Col, Row, Button } from '@freecodecamp/ui';
-import Spacer from '../../../components/helpers/spacer';
+import { Container, Col, Row, Button, Spacer } from '@freecodecamp/ui';
 import LearnLayout from '../../../components/layouts/learn';
 import { ChallengeNode, ChallengeMeta, Test } from '../../../redux/prop-types';
 import ChallengeDescription from '../components/challenge-description';
