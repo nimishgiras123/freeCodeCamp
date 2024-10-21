@@ -20,7 +20,8 @@ import {
 } from '@freecodecamp/ui';
 
 import envData from '../../config/env.json';
-import { Spacer, Loader, Link } from '../components/helpers';
+import { Loader, Link } from '../components/helpers';
+import { Spacer } from '@freecodecamp/ui';
 import './show-update-email.css';
 import { isSignedInSelector, userSelector } from '../redux/selectors';
 import { hardGoTo as navigate } from '../redux/actions';
