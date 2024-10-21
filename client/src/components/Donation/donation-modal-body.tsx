@@ -57,7 +57,7 @@ function ModalHeader({
                   )
                 })}
               </b>
-              <Spacer size='small' />
+              <Spacer size='xs' />
             </>
           )}
 
@@ -108,7 +108,7 @@ const Benefits = ({ setShowForm }: { setShowForm: (arg: boolean) => void }) => {
     <Row className={'donate-btn-group'}>
       <Col xs={12}>
         <ModalBenefitList />
-        <Spacer size='small' />
+        <Spacer size='xs' />
         <button
           className='text-center confirm-donation-btn donate-btn-group'
           type='submit'
@@ -116,7 +116,7 @@ const Benefits = ({ setShowForm }: { setShowForm: (arg: boolean) => void }) => {
         >
           {t('donate.become-supporter')}
         </button>
-        <Spacer size='medium' />
+        <Spacer size='m' />
       </Col>
     </Row>
   );
@@ -194,7 +194,7 @@ const BecomeASupporterConfirmation = ({
         donationAttempted={donationAttempted}
         showForm={showForm}
       />
-      <Spacer size='small' />
+      <Spacer size='xs' />
       {showForm ? (
         <MultiTierDonationForm
           setShowHeaderAndFooter={setShowHeaderAndFooter}
