@@ -114,7 +114,7 @@ function Stats({ points, calendar }: StatsProps): JSX.Element {
   return (
     <FullWidthRow>
       <h2>{t('profile.stats')}</h2>
-      <Spacer size='small' />
+      <Spacer size='xs' />
       <dl className='stats'>
         <div>
           <dt>
