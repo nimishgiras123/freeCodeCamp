@@ -56,7 +56,7 @@ function LandingTop(): JSX.Element {
   return (
     <Container fluid={true} className='gradient-container'>
       <Container className='landing-top landing-top-b'>
-        <Spacer size='medium' />
+        <Spacer size='m' />
         <Row>
           <Col lg={8} lgOffset={2} sm={10} smOffset={1} xs={12}>
             <h1
@@ -85,14 +85,14 @@ function LandingTop(): JSX.Element {
               {t('landing.big-heading-4')}
             </p>
             <LogoRow />
-            <Spacer size='medium' />
+            <Spacer size='m' />
             <BigCallToAction />
           </Col>
         </Row>
         <Row>
           <Col lg={8} lgOffset={2} sm={10} smOffset={1} xs={12}>
             <CampersImage />
-            <Spacer size='medium' />
+            <Spacer size='m' />
           </Col>
         </Row>
       </Container>
