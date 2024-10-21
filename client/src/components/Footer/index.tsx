@@ -187,7 +187,7 @@ function Footer(): JSX.Element {
             </li>
           </ul>
 
-          <Spacer size='medium' />
+          <Spacer size='m' />
 
           <div>
             <h2 id='mobile-app' className='col-header'>
