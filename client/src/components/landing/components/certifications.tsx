@@ -1,8 +1,7 @@
 import React from 'react';
-import { Col } from '@freecodecamp/ui';
+import { Col, Spacer } from '@freecodecamp/ui';
 
 import Map from '../../Map/index';
-import { Spacer } from '../../helpers';
 import { type SuperBlocks } from '../../../../../shared/config/curriculum';
 import BigCallToAction from './big-call-to-action';
 
