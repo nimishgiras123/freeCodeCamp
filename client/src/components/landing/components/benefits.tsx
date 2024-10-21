@@ -1,8 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Col, Row, Container } from '@freecodecamp/ui';
+import { Col, Row, Container, Spacer } from '@freecodecamp/ui';
 
-import { Spacer } from '../../helpers';
 import FreeIcon from '../../../assets/icons/free';
 import CapIcon from '../../../assets/icons/cap';
 import CommunityIcon from '../../../assets/icons/community';
