@@ -31,7 +31,7 @@ const Benefits = (): JSX.Element => {
             </h2>
           </Col>
         </Row>
-        <Spacer size='small' />
+        <Spacer size='xs' />
         <Row>
           <Col xs={12} className='landing-benefits'>
             {benefitItems.map((benefit, index) => {
@@ -42,10 +42,10 @@ const Benefits = (): JSX.Element => {
                   data-playwright-test-label='landing-page-description'
                 >
                   <IconComponent /> {/* Dynamically render the icon */}
-                  <Spacer size='small' />
+                  <Spacer size='xs' />
                   <h3>{benefit.title}</h3>
                   <p>{benefit.description}</p>
-                  <Spacer size='small' />
+                  <Spacer size='xs' />
                 </div>
               );
             })}
@@ -53,7 +53,7 @@ const Benefits = (): JSX.Element => {
         </Row>
         <Row>
           <Col xs={12}>
-            <Spacer size='medium' />
+            <Spacer size='m' />
             <BigCallToAction text={t('landing.benefits.cta')} />
           </Col>
         </Row>
