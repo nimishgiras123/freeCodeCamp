@@ -242,7 +242,7 @@ class DonateForm extends Component<DonateFormProps, DonateFormComponentState> {
     return (
       <>
         <div className={confirmationClass()}>{confirmationWithEditAmount}</div>
-        <Spacer size={editAmount ? 'small' : 'medium'} />
+        <Spacer size={editAmount ? 'xs' : 'm'} />
         <fieldset
           data-playwright-test-label='donation-form'
           className={'donate-btn-group security-legend'}
