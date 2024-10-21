@@ -18,7 +18,7 @@ const Down = () => {
           </a>
         </Trans>
       </p>
-      <Spacer size='small' />
+      <Spacer size='xs' />
       <p>{t('intro:misc-text.progress-wont-save')}</p>
     </Alert>
   );
@@ -39,7 +39,7 @@ const Disabled = () => {
           </a>
         </Trans>
       </p>
-      <Spacer size='small' />
+      <Spacer size='xs' />
       <p>{t('intro:misc-text.progress-wont-save')}</p>
     </Alert>
   );
