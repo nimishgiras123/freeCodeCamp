@@ -145,7 +145,7 @@ export function ShowSettings(props: ShowSettingsProps): JSX.Element {
       <Helmet title={`${t('buttons.settings')} | freeCodeCamp.org`} />
       <Container>
         <main>
-          <Spacer size='large' />
+          <Spacer size='l' />
           <FullWidthRow>
             <Callout variant='info'>{t('settings.profile-note')}</Callout>
           </FullWidthRow>
@@ -165,18 +165,18 @@ export function ShowSettings(props: ShowSettingsProps): JSX.Element {
             toggleNightMode={toggleNightMode}
             toggleSoundMode={toggleSoundMode}
           />
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <Privacy />
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <Email
             email={email}
             isEmailVerified={isEmailVerified}
             sendQuincyEmail={sendQuincyEmail}
             updateQuincyEmail={updateQuincyEmail}
           />
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <Honesty isHonest={isHonest} updateIsHonest={updateIsHonest} />
-          <Spacer size='medium' />
+          <Spacer size='m' />
           {examTokenFlag && <ExamToken />}
           <Certification
             completedChallenges={completedChallenges}
@@ -207,11 +207,11 @@ export function ShowSettings(props: ShowSettingsProps): JSX.Element {
           />
           {userToken && (
             <>
-              <Spacer size='medium' />
+              <Spacer size='m' />
               <UserToken />
             </>
           )}
-          <Spacer size='medium' />
+          <Spacer size='m' />
           <DangerZone />
         </main>
       </Container>
