@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Alert } from '@freecodecamp/ui';
+import { Alert, Spacer } from '@freecodecamp/ui';
 import { SuperBlocks } from '../../../../../shared/config/curriculum';
 import { SuperBlockIcon } from '../../../assets/icons/superblock-icon';
-import { Spacer, Link } from '../../../components/helpers';
+import { Link } from '../../../components/helpers';
 
 interface SuperBlockIntroProps {
   superBlock: SuperBlocks;
