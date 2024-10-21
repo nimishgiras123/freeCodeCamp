@@ -4,10 +4,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import type { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { Button, Modal } from '@freecodecamp/ui';
+import { Button, Modal, Spacer } from '@freecodecamp/ui';
 
 import { SurveyResults, SurveyResponse } from '../../../../redux/prop-types';
-import { Spacer } from '../../../../components/helpers';
 import { setIsProcessing, submitSurvey } from '../../../../redux/actions';
 import { closeModal } from '../../redux/actions';
 import { isProcessingSelector } from '../../../../redux/selectors';
