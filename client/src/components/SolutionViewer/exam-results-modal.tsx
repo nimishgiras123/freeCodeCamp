@@ -1,13 +1,12 @@
 import { connect } from 'react-redux';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Row, Button, Modal } from '@freecodecamp/ui';
+import { Row, Button, Modal, Spacer } from '@freecodecamp/ui';
 
 import type { GeneratedExamResults } from '../../redux/prop-types';
 import { closeModal } from '../../templates/Challenges/redux/actions';
 import { isExamResultsModalOpenSelector } from '../../templates/Challenges/redux/selectors';
 import { formatSecondsToTime } from '../../utils/format-seconds';
-import { Spacer } from '../helpers';
 
 type ExamResultsModalProps = {
   projectTitle: string;
