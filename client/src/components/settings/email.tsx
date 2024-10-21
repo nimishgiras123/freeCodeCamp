@@ -5,7 +5,8 @@ import {
   FormGroupProps,
   FormControl,
   ControlLabel,
-  Button
+  Button,
+  Spacer
 } from '@freecodecamp/ui';
 import React, { useState } from 'react';
 import type { TFunction } from 'i18next';
@@ -20,7 +21,6 @@ import { maybeEmailRE } from '../../utils';
 
 import BlockSaveButton from '../helpers/form/block-save-button';
 import FullWidthRow from '../helpers/full-width-row';
-import Spacer from '../helpers/spacer';
 import Link from '../helpers/link';
 import SectionHeader from './section-header';
 import ToggleButtonSetting from './toggle-button-setting';
