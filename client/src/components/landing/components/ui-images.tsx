@@ -19,7 +19,7 @@ function UIImages(): JSX.Element {
       >
         <LazyImage alt={t('landing.hero-img-uis')} src={landingPageb} />
       </figure>
-      <Spacer size='exLarge' />
+      <Spacer size='xl' />
     </Media>
   );
 }
